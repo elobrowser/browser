@@ -1,0 +1,32 @@
+{
+  "name": "elo",
+  "version": "2.2.1",
+  "description": "Browser automation with the elo-browser Skill",
+  "author": {
+    "name": "Elo",
+    "email": "contact@elobrowser.com",
+    "url": "https://elobrowser.com"
+  },
+  "homepage": "https://github.com/elobrowser/browser",
+  "repository": "https://github.com/elobrowser/browser",
+  "license": "MIT",
+  "keywords": ["browser", "automation", "skill", "playwright"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Elo",
+    "shortDescription": "Automate user's Elo browser",
+    "longDescription": "Control Elo through the packaged elo-browser Skill while keeping agent browsing isolated from the user's own tabs.",
+    "developerName": "Elo",
+    "websiteURL": "https://elobrowser.com",
+    "supportURL": "https://github.com/elobrowser/browser/issues",
+    "privacyPolicyURL": "https://elobrowser.com/privacy",
+    "termsOfServiceURL": "https://elobrowser.com/terms",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "Use elo-browser to inspect https://example.com and report its title."
+    ],
+    "composerIcon": "./skills/elo-browser/assets/composer-icon.png",
+    "logo": "./skills/elo-browser/assets/logo.png"
+  }
+}

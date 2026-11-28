@@ -1,0 +1,18 @@
+{
+  "name": "elo",
+  "displayName": "Elo",
+  "version": "2.2.1",
+  "description": "Browser automation with the elo-browser Skill",
+  "author": {
+    "name": "Elo",
+    "email": "contact@elobrowser.com"
+  },
+  "homepage": "https://github.com/elobrowser/browser",
+  "repository": "https://github.com/elobrowser/browser",
+  "license": "MIT",
+  "keywords": ["browser", "automation", "skill", "playwright"],
+  "logo": "skills/elo-browser/assets/logo.png",
+  "category": "developer-tools",
+  "tags": ["browser", "automation", "testing"],
+  "skills": "./skills/"
+}

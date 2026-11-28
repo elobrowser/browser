@@ -1,0 +1,54 @@
+{
+  "name": "@elo/elo",
+  "version": "2.2.1",
+  "description": "Portable elo-browser Skill for AI agent hosts",
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "package": "node ../scripts/package-plugins.mjs elo",
+    "sync-skills": "node ../scripts/sync-skills.mjs elo"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./server": "./index.js",
+    "./dsh": "./dsh/src/index.js"
+  },
+  "files": [
+    "LICENSE",
+    "plugin.json",
+    ".claude-plugin",
+    ".codex-plugin",
+    ".cursor-plugin",
+    ".codebuddy-plugin",
+    ".qoder-plugin",
+    "index.js",
+    "cordis.patch.yml",
+    "dsh",
+    "skills",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "npmPackages": {
+    "opencode": "@elo/opencode-plugin",
+    "deepseek-harness": "@elo/dsh-plugin",
+    "pi": "@elo/pi-plugin"
+  },
+  "npmVersion": "1.0.0",
+  "keywords": [
+    "agent-plugin",
+    "browser",
+    "automation",
+    "skill"
+  ],
+  "author": "Elo",
+  "license": "MIT",
+  "homepage": "https://github.com/elobrowser/browser",
+  "repository": "https://github.com/elobrowser/browser",
+  "publishConfig": {
+    "access": "public"
+  }
+}

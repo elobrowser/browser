@@ -1,0 +1,3 @@
+- insert:
+    - id: elo
+      name: '@elo/elo/dsh'

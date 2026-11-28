@@ -1,0 +1,11 @@
+{
+  "name": "elo",
+  "version": "2.2.1",
+  "description": "Browser automation with the elo-browser Skill",
+  "author": {
+    "name": "Elo",
+    "email": "contact@elobrowser.com"
+  },
+  "homepage": "https://github.com/elobrowser/browser",
+  "icon": "./skills/elo-browser/assets/logo.png"
+}

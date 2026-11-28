@@ -1,0 +1,5 @@
+node_modules/
+dist/
+elo-browser.js
+bin/
+.build.lock
